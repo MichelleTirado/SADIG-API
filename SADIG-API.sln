@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SADIG-API", "SADIG-API.csproj", "{1D2DEE7E-522E-4F97-A63C-6E0EE386DA1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D2DEE7E-522E-4F97-A63C-6E0EE386DA1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D2DEE7E-522E-4F97-A63C-6E0EE386DA1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D2DEE7E-522E-4F97-A63C-6E0EE386DA1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D2DEE7E-522E-4F97-A63C-6E0EE386DA1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B0AC8DD-AD13-4BFE-8B4F-D811C82F1B75}
+	EndGlobalSection
+EndGlobal
