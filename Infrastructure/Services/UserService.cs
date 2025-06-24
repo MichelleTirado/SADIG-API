@@ -9,14 +9,16 @@ namespace SADIG_API.Infrastructure.Services
     {
         private readonly IConfiguration _configuration;
         private readonly string _connectionString;
+        private readonly HttpClient _httpClient;
 
-        public UserService(IConfiguration config)
+        public UserService(IConfiguration config, HttpClient httpClient)
         {
             _configuration = config;
             _connectionString = _configuration.GetConnectionString("DefaultConnection");
+            _httpClient = httpClient;
         }
 
-        public async Task<IEnumerable<User>> GetAllUsers(bool available)
+        public async Task<IEnumerable<User>> GetUsers(bool available)
         {
             var users = new List<User>();
 

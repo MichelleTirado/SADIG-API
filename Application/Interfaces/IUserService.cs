@@ -4,6 +4,6 @@ namespace SADIG_API.Application.Interfaces
 {
     public interface IUserService
     {
-        Task<IEnumerable<User>> GetAllUsers(bool available);
+        Task<IEnumerable<User>> GetUsers(bool available);
     }
 }

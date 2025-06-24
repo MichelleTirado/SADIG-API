@@ -14,10 +14,10 @@ namespace SADIG_API.WebAPI.Controllers
             _userService = userService;
         }
 
-        [HttpGet("GetAllUsers")]
-        public async Task<IActionResult> GetAllUsers([FromQuery] bool available = true)
+        [HttpGet("GetUsers")]
+        public async Task<IActionResult> GetUsers([FromQuery] bool available = true)
         {
-            var users = await _userService.GetAllUsers(available);
+            var users = await _userService.GetUsers(available);
             return Ok(users);
         }
     }
