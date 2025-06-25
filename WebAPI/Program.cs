@@ -42,6 +42,7 @@ builder.Services.AddScoped<JwtService>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ICorrespondenceTypeService, CorrespondenceTypeService>();
 builder.Services.AddScoped<IShiftTypeService, ShiftTypeService>();
+builder.Services.AddScoped<ICorrespondenceService, CorrespondenceService>();
 
 //builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
 builder.Services.AddMemoryCache();
